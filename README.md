@@ -4,10 +4,13 @@
 
 What is the sum of the numbers on the diagonals in a 501 by 501 spiral formed in the same way?
 
-def test_spiral(a):
+
+ def test_spiral(a):  
+ 
+ 
     squaresList = [i*i for i in range(1, a+1) if (i % 2 != 0)]
     nums = [i for i in range(1, a*a+1) if (i % 2 != 0)]
-        
+    
     index = 0
     b = 0
     totalSum = 0
